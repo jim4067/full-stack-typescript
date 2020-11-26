@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "calc-bmi": "ts-node bmi-calculator",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
