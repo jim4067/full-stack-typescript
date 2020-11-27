@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "calc-bmi": "ts-node bmi-calculator.ts",
+    "calc-exercises": "ts-node exercises-calc.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^14.14.10",
     "ts-node": "^9.0.0",
     "typescript": "^4.1.2"
   }
