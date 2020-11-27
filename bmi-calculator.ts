@@ -1,3 +1,8 @@
+interface BMI_Types {
+    body_mass: number,
+    height: number
+}
+
 const calculateBmi = (body_mass: number, height: number) => {
     const BMI_result: number = (body_mass / (height * height)) * 703;
 
@@ -15,4 +20,18 @@ const calculateBmi = (body_mass: number, height: number) => {
     }
 }
 
-calculateBmi(180, 74);
+
+const parseArgs = (args: Array<String>): BMI_Types => {
+    if (!isNaN(Number(args[2])) && !isNaN(Number(args[3]))) {
+        return {
+            body_mass: Number(process.argv[2]),
+            height: Number(process.argv[3])
+        }
+    } else {
+        throw new Error("values must be numbers")
+    }
+}
+
+const { body_mass, height } = parseArgs(process.argv);
+
+calculateBmi(body_mass, height);
