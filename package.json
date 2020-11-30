@@ -1,13 +1,13 @@
 {
-  "name": "full-stack-part9",
+  "name": "full-stack-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "calc-bmi": "ts-node bmi-calculator.ts",
     "calc-exercises": "ts-node exercises-calc.ts",
-    "dev" : "ts-node-dev index.ts",
-    "start" : "ts-node index.ts",
+    "dev": "ts-node-dev index.ts",
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,9 @@
   "devDependencies": {
     "@types/express": "^4.17.9",
     "@types/node": "^14.14.10",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
     "ts-node": "^9.0.0",
     "ts-node-dev": "^1.0.0",
     "typescript": "^4.1.2"
