@@ -1,5 +1,15 @@
 {
-    "compilerOptions" : {
-        "noImplicitAny" : true,
+    "compilerOptions": {
+      "noImplicitAny": false,
+      "noImplicitReturns": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "strictBindCallApply": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "declaration": true,
     }
-}
+  }
