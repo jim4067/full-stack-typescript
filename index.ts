@@ -24,6 +24,7 @@ app.get('/bmi', (req, res) => {
 });
 
 app.post('/exercicises', (req, res) => {
+    //this assumes that the user knows what he is doing
     const { exercise_params } = req.body;
 
     const result = calculate_exercises(exercise_params);
