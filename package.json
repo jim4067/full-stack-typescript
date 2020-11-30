@@ -8,6 +8,7 @@
     "calc-exercises": "ts-node exercises-calc.ts",
     "dev": "ts-node-dev index.ts",
     "start": "ts-node index.ts",
+    "lint" : "eslint --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
